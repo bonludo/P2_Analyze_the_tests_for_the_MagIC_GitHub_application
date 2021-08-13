@@ -5,7 +5,7 @@ import java.util.Random;
 import androidx.annotation.Nullable;
 import static com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_USERS_RANDOM;
 
-public class User {
+public class  User {
 
     private String id;
     private String login;
@@ -39,6 +39,7 @@ public class User {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(login, avatarUrl);
     }
 }

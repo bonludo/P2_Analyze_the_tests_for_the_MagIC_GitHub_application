@@ -2,5 +2,5 @@
 
 Target skills
 
-Provide fix patches when the test execution report suggests it
-Produce a test execution report
+- Provide fix patches when the test execution report suggests it
+- Produce a test execution report
